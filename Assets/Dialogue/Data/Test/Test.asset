@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e6151baca9650458402e3cdc21405e, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  Dialogue:
+  - 'This is my Dialogue!
+
+    I want to take some time from you to check if this
+    works
+
+    Try it!'
+  - See you soon.
+  _responses:
+  - responseText: Yes
+    dialogueObject: {fileID: 11400000, guid: 9c6e81b81a007a249bc0c4800a62cba9, type: 2}
+  - responseText: No
+    dialogueObject: {fileID: 11400000, guid: ee0d9b0636c670943b612a88de47c4ac, type: 2}
+  - responseText: Quest1
+    dialogueObject: {fileID: 11400000, guid: adafcbc38aa1c9a42beecd52626769ff, type: 2}
+  - responseText: Quest2
+    dialogueObject: {fileID: 11400000, guid: 97a9bc8241e880b4ebff65fd2a44c7c1, type: 2}
+  - responseText: Quest3
+    dialogueObject: {fileID: 11400000, guid: 97a9bc8241e880b4ebff65fd2a44c7c1, type: 2}
+  - responseText: Lets Trade
+    dialogueObject: {fileID: 11400000, guid: 4442674ba2f3b3a4e9710e91c5f60382, type: 2}

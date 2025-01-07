@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f62b9e19b2746ff99b268ac7606bf90, type: 3}
+  m_Name: DarkSkull
+  m_EditorClassIdentifier: 
+  spellName: imero
+  manaCost: 1
+  manaPool: 10
+  spellCd: 1
+  spellDamage: 10
+  lifeTime: 0
+  particlePref: {fileID: 6367284377650858786, guid: d60ad3dd29e58d845a7992a14a1dc058, type: 3}
+  projectileSpeed: 2
+  spellIcon: {fileID: 165076584, guid: fdbc364c49dd4a849ad1e0d9fb106702, type: 3}
